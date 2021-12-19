@@ -1,0 +1,2 @@
+C:\Users\Eigenaar\Documents\GitHub\casestudy2\casestudy-main\workItOut\workItOut\bin\Release\netcoreapp3.1\win-x64\publish\workItOut.pdb
+C:\Users\Eigenaar\Documents\GitHub\casestudy2\casestudy-main\workItOut\workItOut\bin\Release\netcoreapp3.1\win-x64\publish\workItOut.exe
