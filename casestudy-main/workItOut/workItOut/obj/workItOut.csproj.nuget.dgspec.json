@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eigenaar\\school\\2e jaar\\1ste semester\\devOps security\\case study\\workItOut\\workItOut\\workItOut.csproj": {}
+    "C:\\Users\\Eigenaar\\Documents\\GitHub\\casestudy2\\casestudy-main\\workItOut\\workItOut\\workItOut.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eigenaar\\school\\2e jaar\\1ste semester\\devOps security\\case study\\workItOut\\workItOut\\workItOut.csproj": {
+    "C:\\Users\\Eigenaar\\Documents\\GitHub\\casestudy2\\casestudy-main\\workItOut\\workItOut\\workItOut.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eigenaar\\school\\2e jaar\\1ste semester\\devOps security\\case study\\workItOut\\workItOut\\workItOut.csproj",
+        "projectUniqueName": "C:\\Users\\Eigenaar\\Documents\\GitHub\\casestudy2\\casestudy-main\\workItOut\\workItOut\\workItOut.csproj",
         "projectName": "workItOut",
-        "projectPath": "C:\\Users\\Eigenaar\\school\\2e jaar\\1ste semester\\devOps security\\case study\\workItOut\\workItOut\\workItOut.csproj",
+        "projectPath": "C:\\Users\\Eigenaar\\Documents\\GitHub\\casestudy2\\casestudy-main\\workItOut\\workItOut\\workItOut.csproj",
         "packagesPath": "C:\\Users\\Eigenaar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eigenaar\\school\\2e jaar\\1ste semester\\devOps security\\case study\\workItOut\\workItOut\\obj\\",
+        "outputPath": "C:\\Users\\Eigenaar\\Documents\\GitHub\\casestudy2\\casestudy-main\\workItOut\\workItOut\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Eigenaar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.20, 3.1.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.20, 3.1.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.20, 3.1.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -72,6 +86,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
         }
       }
     }
