@@ -1,0 +1,17 @@
+name: "Deploy application"
+
+on:
+ push:
+  branches: { main }
+
+env:
+ PROJECT_PATH: workItOut/workItOut/workItOut.csproj
+
+jobs:
+ release:
+  runs-on: windows-latest
+  steps:
+   - uses: actions/checkouts@v2
+   - run: dotnet restore ${{ env.PROJECT_PATH }}
+   - run: dotnet build ${{ env.PROJECT_PATH }} -c Release --no-restore
+   - run: dotnet publish ${{ env.PROJECT_PATH }} -c Release --self-contained -r win-x64 /p:PublishSingleFile=true --no-build

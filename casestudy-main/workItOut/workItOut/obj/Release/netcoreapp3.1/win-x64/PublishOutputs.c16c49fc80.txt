@@ -1,0 +1,2 @@
+C:\Users\Eigenaar\school\2e jaar\1ste semester\devOps security\case study\workItOut\workItOut\bin\Release\netcoreapp3.1\win-x64\publish\workItOut.pdb
+C:\Users\Eigenaar\school\2e jaar\1ste semester\devOps security\case study\workItOut\workItOut\bin\Release\netcoreapp3.1\win-x64\publish\workItOut.exe
